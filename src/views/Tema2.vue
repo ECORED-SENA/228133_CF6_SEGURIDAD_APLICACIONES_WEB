@@ -5,15 +5,20 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1
+
+
+
 
 </template>
 
 <script>
 export default {
   name: 'Tema2',
+  components: {},
   data: () => ({
-    // variables de vue
+    indicadorTarjetaSlide: true,
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -25,5 +30,4 @@ export default {
   },
 }
 </script>
-
 <style lang="sass"></style>

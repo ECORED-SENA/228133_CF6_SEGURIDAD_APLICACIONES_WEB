@@ -1,17 +1,18 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Monitoreo de la seguridad web',
+    descripcionCurso:
+      'En la construcción de un sistema de información por procesamiento electrónico de datos orientado a la web, se deben implementar los mecanismos que permiten medir el comportamiento de la  seguridad, como monitoreo, metodologías, indicadores y métricas, unido a las herramientas de software.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -32,31 +33,57 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Monitorear la seguridad web',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
+        subMenu: [],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Metodologías, normas y estándares',
         desarrolloContenidos: true,
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Políticas internas de una organización',
         desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Indicadores',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Métricas',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Herramientas de software',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo: 'Informe de monitoreo',
+        desarrolloContenidos: true,
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -64,7 +91,6 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'actividad',
@@ -99,34 +125,64 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'OWASP Top 10. (2021). A09 Fallas en el Registro y Monitoreo - OWASP Top 10:2021. ',
+      link:
+        'https://owasp.org/Top10/es/A09_2021-Security_Logging_and_Monitoring_Failures/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Cec, N. (2020). ISO/IEC 27034: Estándar Internacional para la seguridad de las aplicaciones | noticias.cec.es.',
+      link:
+        'https://noticias.cec.es/index.php/2020/03/20/isoiec-27034-estandar-internacional-para-la-seguridad-de-las-aplicaciones/',
+    },
+    {
+      referencia:
+        'Negocio, IPT. (2018). Indicadores de riesgo en la seguridad de datos.',
+      link:
+        'https://www.informaticaparatunegocio.com/blog/indicadores-riesgo-la-seguridad-datos/',
+    },
+    {
+      referencia:
+        'Normas ISO. (2018). Normas ISO sobre gestión de seguridad de la información | Seguridadnformática.',
+      link:
+        'http://descargas.pntic.mec.es/mentor/visitas/demoSeguridadInformatica/normas_iso_sobre_gestin_de_seguridad_de_la_informacin.htm',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'ASVS',
+      significado: 'Estándar de verificación de seguridad de aplicaciones.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'CVE/CVSS',
+      significado: 'Vulnerabilidades y exposiciones comunes.',
+    },
+    {
+      termino: '<em>Checklist</em>',
+      significado:
+        'Lista de chequeo qué sirve para registrar un proceso de auditoría.',
+    },
+    {
+      termino: 'OWASP',
+      significado: 'Open Web Application Security Project.',
+    },
+    {
+      termino: '<em>Pentesting</em>',
+      significado:
+        'Proceso que imita posibles ataques a una red informática e intenta robar datos.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      tema: 'Metodologías, normas y estándares',
+      referencia:
+        'Caballero, A. [Alonso Caballero]. (2019, 31 de enero). Webinar Gratuito: Guía de Pruebas de OWASP [Video]. YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=kXfZqQY0rcg&ab_channel=AlonsoCaballer',
     },
   ],
   creditos: {
@@ -144,6 +200,30 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: '',
+        cargo: '',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: '',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: '',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: '',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
     ],
     desarrolloProducto: [
       {
@@ -153,41 +233,60 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: '',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Luis Jesús Pérez Madariaga',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo front-end',
+        nombre: '',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
