@@ -5,7 +5,16 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 7
-      h1
+      h1 Informe de monitoreo
+
+    p(data-aos="fade-up") Con base en las métricas antes descritas, se deben generar los formatos de indicadores para generar el informe de resultados; a continuación se ilustra un formato de presentación de indicador unido a los reportes generados desde las herramientas de software.
+
+    .titulo-sexto.color-acento-contenido.mt-5
+      h5 Figura 2
+      span Ejemplo de informe de monitoreo
+
+    figure.mt-4
+      img(src="@/assets/curso/tema7/1.svg" data-aos="zoom-in-up")
 
 
 
