@@ -7,7 +7,7 @@
         span 5
       h1 Métricas
 
-    p(data-aos="fade-up") Las métricas se encuentran divididas en seguridad, red, software y calidad, los cuales se describen a continuación:
+    p(data-aos="fade-up") Las métricas se encuentran divididas en seguridad, red, #[em software] y calidad, los cuales se describen a continuación:
 
     TabsB.color-acento-contenido.mt-5
       .py-4.py-md-5(titulo="Métricas en procesos de seguridad" :icono="require('@/assets/curso/tema5/1.png')")
@@ -37,7 +37,7 @@
             ul.lista-ul.mt-4
               li 
                 i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Impulsado por productos (firewalls, IDS, etc.).
+                | Impulsado por productos (#[em firewalls], IDS, etc.).
               li 
                 i.fas.fa-check-circle(style="color:#6ACEAE;")
                 | Disponible.
@@ -63,13 +63,13 @@
             ul.lista-ul.mt-4
               li 
                 i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Medidas de software están problemáticas (LOC, FPS, Complejidad etc.).
+                | Medidas de &nbsp;#[em software]&nbsp; están problemáticas (LOC, FPS, Complejidad etc.).
               li 
                 i.fas.fa-check-circle(style="color:#6ACEAE;")
                 | Dependen del contexto y son sensibles al entorno. 
               li 
                 i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Dependiente de Arquitectura.
+                | Dependiente de arquitectura.
           .col-md-6(style="place-self:center;")
             figure
               img(src='@/assets/curso/tema5/7.png')
@@ -89,7 +89,7 @@
                 | Integridad (Grado de resistencia ante pérdida de información).
               li 
                 i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Usabilidad (Grado de facilidad de Uso).
+                | Usabilidad (Grado de facilidad de uso).
           .col-md-6(style="place-self:center;")
             figure
               img(src='@/assets/curso/tema5/8.png')

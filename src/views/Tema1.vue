@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Monitorear la seguridad web
+      h1 Monitorear la seguridad #[em web]
 
     .row
       .col-md-4.mb-4.mb-md-0(style="place-self:center;")

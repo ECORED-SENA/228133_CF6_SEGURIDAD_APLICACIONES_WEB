@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Monitoreo de la seguridad web',
+    componenteFormativo: 'Monitoreo de la seguridad <em>web</em>',
     descripcionCurso:
-      'En la construcción de un sistema de información por procesamiento electrónico de datos orientado a la web, se deben implementar los mecanismos que permiten medir el comportamiento de la  seguridad, como monitoreo, metodologías, indicadores y métricas, unido a las herramientas de software.',
+      'En la construcción de un sistema de información por procesamiento electrónico de datos orientado a la <em>web</em>, se deben implementar los mecanismos que permiten medir el comportamiento de la  seguridad, como monitoreo, metodologías, indicadores y métricas, unido a las herramientas de <em>software</em>.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -33,7 +33,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Monitorear la seguridad web',
+        titulo: 'Monitorear la seguridad <em>web</em>',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -73,7 +73,7 @@ export default {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Herramientas de software',
+        titulo: 'Herramientas de <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -201,28 +201,26 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: '',
+        nombre: 'Carlos  Muñoz',
+        cargo: 'Experto Temático',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro de teleinformática y producción industrial - Regional Cauca',
       },
       {
-        nombre: '',
-        cargo: '',
+        nombre: 'Paula Andrea Taborda Ortiz',
+        cargo: 'Diseñadora Instruccional',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro de la Industria, la Empresa y Los Servicios CIES - Regional Norte de Santander',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora Metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -250,37 +248,36 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: '',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

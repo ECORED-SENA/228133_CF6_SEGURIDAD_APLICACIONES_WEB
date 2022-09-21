@@ -10,7 +10,7 @@
             img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Identificar lo aprendido sobre Monitoreo
+          h2 Identificar lo aprendido sobre monitoreo
         p.mb-4 Afianzar los conocimientos para monitorear la seguridad de aplicaciones web.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

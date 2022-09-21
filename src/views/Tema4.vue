@@ -51,11 +51,11 @@
       .tarjeta.color-acento-botones.p-3(x="28%" y="58%" numero="2")
         span(style="background-color:#B9FFE2;font-weight:bold;padding:.1rem;")  Indicador 02
         h5 Cubrimiento del SGSI en activos de información
-        p.mt-4 Determina y hace seguimiento al cubrimiento que se realiza a nivel de activos críticos de información de una entidad y los controles aplicados.
+        p.mt-4 Determina y #[em hace seguimiento] al cubrimiento que se realiza a nivel de activos críticos de información de una #[em entidad] y los #[em controles] aplicados.
       .tarjeta.color-acento-botones.p-3(x="41%" y="70%" numero="3")
         span(style="background-color:#6ACEAE;font-weight:bold;padding:.1rem;")  Indicador 03
         h5 Tratamientos de eventos relacionados en marco de seguridad y privacidad de la información
-        p.mt-4 Determina la eficiencia en el tratamiento de eventos relacionados la seguridad de la información; los eventos serán reportados por los usuarios o determinadas en las auditorías planeadas para el sistema.
+        p.mt-4 Determina la eficiencia en el tratamiento de eventos relacionados con la seguridad de la información; los eventos serán reportados por los usuarios o determinadas en las auditorías planeadas para el sistema.
       .tarjeta.color-acento-botones.p-3(x="57%" y="71%" numero="4")
         span(style="background-color:#6ACEAE;font-weight:bold;padding:.1rem;")  Indicador 04
         h5 Implementación de los procesos de registro y auditoría
