@@ -202,19 +202,19 @@ export default {
       },
       {
         nombre: 'Carlos  Muñoz',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro de teleinformática y producción industrial - Regional Cauca',
       },
       {
         nombre: 'Paula Andrea Taborda Ortiz',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro:
           'Centro de la Industria, la Empresa y Los Servicios CIES - Regional Norte de Santander',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Asesora Metodológica',
+        cargo: 'Asesora metodológica',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
@@ -243,7 +243,7 @@ export default {
       },
       {
         nombre: 'Luis Jesús Pérez Madariaga',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -278,7 +278,7 @@ export default {
       },
       {
         nombre: 'Yuli Marcela Gómez Tarazona',
-        cargo: 'Validación de diseño y contenido',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
