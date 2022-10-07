@@ -36,23 +36,17 @@
             h4 Métricas de red
             ul.lista-ul.mt-4
               li 
-                i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Impulsado por productos (#[em firewalls], IDS, etc.).
+                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Impulsado por productos (#[em firewalls], IDS, etc.).
               li 
-                i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Disponible.
+                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Disponible.
               li 
-                i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Ampliamente utilizado. 
+                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Ampliamente utilizado. 
               li 
-                i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Brinda una sensación de control.
+                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Brinda una sensación de control.
               li 
-                i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Gráficos agradables.
+                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Gráficos agradables.
               li 
-                i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Puede ser engañoso.
+                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Puede ser engañoso.
           .col-md-6(style="place-self:center;")
             figure
               img(src='@/assets/curso/tema5/6.png')
@@ -62,14 +56,11 @@
             h4 Métricas de #[em software]
             ul.lista-ul.mt-4
               li 
-                i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Medidas de &nbsp;#[em software]&nbsp; están problemáticas (LOC, FPS, Complejidad etc.).
+                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Medidas de &nbsp;#[em software]&nbsp; están problemáticas (LOC, FPS, Complejidad etc.).
               li 
-                i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Dependen del contexto y son sensibles al entorno. 
+                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Dependen del contexto y son sensibles al entorno. 
               li 
-                i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Dependiente de arquitectura.
+                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Dependiente de arquitectura.
           .col-md-6(style="place-self:center;")
             figure
               img(src='@/assets/curso/tema5/7.png')
@@ -122,4 +113,8 @@ export default {
 <style lang="sass">
 .tabs-b__tab
   border-bottom: 0
+.tabs-b.color-acento-contenido .tabs-b__tab--active img
+  filter: none
+.tabs-b__tab img
+  filter: grayscale(1)
 </style>

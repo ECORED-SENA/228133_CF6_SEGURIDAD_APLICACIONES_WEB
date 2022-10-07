@@ -23,7 +23,7 @@
             img(src="@/assets/curso/tema3/2.png" data-aos="zoom-in-up" style="position:relative;display:inline;max-width:200px;margin-top:-75px;")
           .p-5(style="background-color:#C7EDE0;")             
             p(data-aos="fade-up") Si la organización cotiza en bolsa en la mayoría de los países, debe tener una política de seguridad de la información.
-      .col-lg-6.mb-5.mb-lg-0
+      .col-lg-6.mb-5.mb-lg-0.mt-5.mt-lg-0
         div(style="height:100%")
           .pb-4.ps-5.pe-5.text-center(style="background-color:#294DDC;border-top-left-radius:5px;border-top-right-radius:5px;")
             img(src="@/assets/curso/tema3/3.png" data-aos="zoom-in-up" style="position:relative;display:inline;max-width:200px;margin-top:-75px;")
@@ -31,10 +31,10 @@
             p(data-aos="fade-up") Si la organización es propia pero posee cierto número de empleados y desarrolladores, probablemente necesite una política.
 
     .row.mt-5.cont_tema3_1.p-4(style="position:relative;")
-      .col-md-1.mb-4.mb-md-0(style="place-self:center;position:relative")
+      .col-lg-1.mb-4.mb-lg-0(style="place-self:center;position:relative")
         figure.text-center
           img(src="@/assets/curso/tema3/4.png" data-aos="fade-right" style="display:inline;max-width:90px;")
-      .col-md-11(style="place-self:center;position:relative")
+      .col-lg-11(style="place-self:center;position:relative")
         p.mb-0(data-aos="fade-up") Es perfectamente correcto mezclar y combinar controles de COBIT y de ISO 17799 y casi cualquier otro estándar de seguridad de la información; rara vez se encuentran en desacuerdo en los detalles. El método de producción puede ser a veces difícil – #[strong en el caso de requerir una política certificada, se necesitara involucrar a firmas calificadas para que ayuden a la organización.]
 
 

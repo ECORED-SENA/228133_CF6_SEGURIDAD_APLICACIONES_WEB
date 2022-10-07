@@ -8,7 +8,7 @@
       h1 Herramientas de #[em software]
 
     .row
-      .col-md-4.mb-md-0(style="place-self:center;")
+      .col-md-4.mb-md-0.mb-4(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema6/1.png" data-aos="fade-right")
       .col-md-8(style="place-self:center;")

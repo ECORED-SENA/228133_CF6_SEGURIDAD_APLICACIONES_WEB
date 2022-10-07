@@ -16,10 +16,10 @@
         p.mt-4(data-aos="fade-up") Por tanto, se hace necesario realizar monitoreo activo y permanente de amenazas, donde se lleven a cabo pruebas de verificación del correcto funcionamiento y de la no existencia de brechas de seguridad, amenazas en el sistema o programas obsoletos que se puedan convertir en la entrada de piratas informáticos y finalmente, revisar periódicamente el cumplimiento de las medidas de seguridad, acatando las normas, metodologías y estándares.
 
     .row.cont_tema1.mt-5.p-4(style="position:relative;")
-      .col-md-1.mb-4.mb-md-0(style="place-self:center;position:relative")
+      .col-lg-1.mb-4.mb-lg-0(style="place-self:center;position:relative")
         figure.text-center
-          img(src="@/assets/curso/tema1/2.png" data-aos="fade-right" style="display:inline;max-width:200px;")
-      .col-md-11(style="place-self:center;position:relative")
+          img(src="@/assets/curso/tema1/2.png" data-aos="fade-right" style="display:inline;max-width:150px;")
+      .col-lg-11(style="place-self:center;position:relative")
         p.mb-0(data-aos="fade-up") El monitoreo activo de amenazas es un factor muy importante y que debemos tener muy en cuenta y que se debe aplicar sin importar si somos usuarios domésticos o una gran empresa, porque es esencial detectar lo antes posible las amenazas.
 
 
