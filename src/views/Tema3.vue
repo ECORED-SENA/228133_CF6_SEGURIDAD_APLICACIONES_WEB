@@ -35,7 +35,7 @@
         figure.text-center
           img(src="@/assets/curso/tema3/4.png" data-aos="fade-right" style="display:inline;max-width:90px;")
       .col-lg-11(style="place-self:center;position:relative")
-        p.mb-0(data-aos="fade-up") Es perfectamente correcto mezclar y combinar controles de COBIT y de ISO 17799 y casi cualquier otro estándar de seguridad de la información; rara vez se encuentran en desacuerdo en los detalles. El método de producción puede ser a veces difícil – #[strong en el caso de requerir una política certificada, se necesitara involucrar a firmas calificadas para que ayuden a la organización.]
+        p.mb-0(data-aos="fade-up") Es perfectamente correcto mezclar y combinar controles de COBIT y de ISO 17799 y casi cualquier otro estándar de seguridad de la información; rara vez se encuentran en desacuerdo en los detalles. El método de producción puede ser a veces difícil – #[strong en el caso de requerir una política certificada, se necesitará involucrar a firmas calificadas para que ayuden a la organización.]
 
 
 

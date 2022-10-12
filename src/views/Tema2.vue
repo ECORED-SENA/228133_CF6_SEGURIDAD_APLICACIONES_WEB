@@ -21,8 +21,8 @@
       .col-md-8.mb-4.mb-0
         h5(data-aos="fade-up") Metodologías  OWASP
         p(data-aos="fade-up") Según esta metodología, comprende el OWASP Top 10 que corresponde a un documento de los diez riesgos de seguridad más importantes en aplicaciones #[em web] y por otra parte se deben tratar OWASP con (ASVS).
-        p.mt-4(data-aos="fade-up") Dentro del OWASP Top 10 se encuentra el ítem 09 que trata del registro y monitoreo, en donde estos pueden ser desafiantes para ser testeados, implicando la realización de entrevistas o preguntando si los ataques fueron detectados durante las pruebas de penetración. No hay muchos datos de CVE/CVSS para esta categoría, pero realizar detecciones y responder a las brechas es crítico. Aún así, puede tener un gran impacto para la auditabilidad, visibilidad, alertas de incidentes y análisis forense. Esta categoría se expande más allá de CWE-117 Neutralización de salida incorrecta de registros, CWE-223 Omisión de información relevante para la seguridad, y CWE-532 inserción de información sensible en archivo de registro.
-        p.mt-4(data-aos="fade-up") En registros y monitoreo, las brechas no pueden ser detectadas. registros, detecciones, monitoreo y respuestas activas insuficientes pueden ocurrir en cualquier momento; por lo tanto se recomienda recoger información sobre los siguientes eventos, que se presentan a continuación: 
+        p.mt-4(data-aos="fade-up") Dentro del OWASP Top 10 se encuentra el ítem 09 que trata del registro y monitoreo, en donde estos pueden ser desafiantes para ser testeados, implicando la realización de entrevistas o preguntando si los ataques fueron detectados durante las pruebas de penetración. No hay muchos datos de CVE/CVSS para esta categoría, pero realizar detecciones y responder a las brechas es crítico. Aún así, puede tener un gran impacto para la auditabilidad, visibilidad, alertas de incidentes y análisis forense. Esta categoría se expande más allá de CWE-117 Neutralización de salida incorrecta de registros, CWE-223 Omisión de información relevante para la seguridad, y CWE-532 Inserción de información sensible en archivo de registro.
+        p.mt-4(data-aos="fade-up") En registros y monitoreo, las brechas no pueden ser detectadas. Registros, detecciones, monitoreo y respuestas activas insuficientes pueden ocurrir en cualquier momento; por lo tanto se recomienda recoger información sobre los siguientes eventos, que se presentan a continuación: 
       .col-md-4
         figure
           img(src="@/assets/curso/tema2/2.png" data-aos="fade-left")
@@ -68,7 +68,7 @@
               img(src='@/assets/curso/tema2/8.png' style="position:relative;z-index:1;")
             .tarjeta.tarjeta--azul(style="background-color: #FFF4D6;border: 2px #ECC153 solid;border-radius: 5px;position:relative;height:100%;")
               .p-4.h-100.d-flex.align-items-center
-                p.mb-0(data-aos="fade-up") Las pruebas de penetración y los escaneos utilizando herramientas de pruebas dinámicas de seguridad en aplicaciones (como ser OWASP ZAP) no generan alertas.
+                p.mb-0(data-aos="fade-up") Las pruebas de penetración y los escaneos utilizando herramientas de pruebas dinámicas de seguridad en aplicaciones (como OWASP ZAP) no generan alertas.
                 img.image_mapa(src="@/assets/curso/tema2/4.svg" style="max-width:50px;position:absolute;left:-90px;top:50%;transform:rotate(180deg);")
         .col-lg-4.mb-lg-0.mb-5.order-1.order-lg-0
           .tarjeta-avatar-b(style="height:100%;")
@@ -312,7 +312,7 @@
 
     .p-5.mt-5(style="background-color:#FFF5DE;border-radius:15px;")
       .titulo-sexto.color-acento-contenido
-        h5 Figura 2.
+        h5 Figura 1.
         span Aplicación de normas y estándares de una organización
       figure.mt-4
         img(src="@/assets/curso/tema2/25.svg" data-aos="zoom-in-up")

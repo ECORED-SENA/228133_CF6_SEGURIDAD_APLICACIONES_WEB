@@ -1,1 +1,1 @@
-module.exports = 'Monitoreo de la seguridad web'
+module.exports = 'Monitoreo de la Seguridad Web'

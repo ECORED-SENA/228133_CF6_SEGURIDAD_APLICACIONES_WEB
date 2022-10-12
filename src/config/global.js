@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Monitoreo de la seguridad <em>web</em>',
+    componenteFormativo: 'Monitoreo de la Seguridad <em>Web</em>',
     descripcionCurso:
       'En la construcción de un sistema de información por procesamiento electrónico de datos orientado a la <em>web</em>, se deben implementar los mecanismos que permiten medir el comportamiento de la  seguridad, como monitoreo, metodologías, indicadores y métricas, unido a las herramientas de <em>software</em>.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
@@ -146,9 +146,9 @@ export default {
     },
     {
       referencia:
-        'Normas ISO. (2018). Normas ISO sobre gestión de seguridad de la información | Seguridadnformática.',
+        'Normas ISO. (2018). Normas ISO sobre gestión de seguridad de la información | Seguridad Informática.',
       link:
-        'http://descargas.pntic.mec.es/mentor/visitas/demoSeguridadInformatica/normas_iso_sobre_gestin_de_seguridad_de_la_informacin.htm',
+        'http://descargas.pntic.mec.es/mentor/visitas/demoSeguridadInformatica/normas_iso_sobre_gestin_de_seguridad_de_la_informacin.html',
     },
   ],
   glosario: [
@@ -167,7 +167,7 @@ export default {
     },
     {
       termino: 'OWASP',
-      significado: 'Open Web Application Security Project.',
+      significado: ' Open Web Application Security Project.',
     },
     {
       termino: '<em>Pentesting</em>',
@@ -236,7 +236,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
+        nombre: 'Maria Natalia Maldonado',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

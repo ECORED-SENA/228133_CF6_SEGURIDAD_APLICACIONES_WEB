@@ -17,7 +17,7 @@
             ul.lista-ul.mt-4
               li 
                 i.fas.fa-check-circle(style="color:#6ACEAE;")
-                | Medición de los procesos y procedimientos Implica alta utilidad de la seguridad políticas y procesos.
+                | Medición de los procesos y procedimientos Implica alta utilidad de la seguridad, políticas y procesos.
               li 
                 i.fas.fa-check-circle(style="color:#6ACEAE;")
                 | La relación entre indicadores y nivel de seguridad no está claramente definida.
@@ -56,7 +56,7 @@
             h4 Métricas de #[em software]
             ul.lista-ul.mt-4
               li 
-                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Medidas de &nbsp;#[em software]&nbsp; están problemáticas (LOC, FPS, Complejidad etc.).
+                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Medidas de &nbsp;#[em software]&nbsp; están problemáticas (LOC, FPS, Complejidad, etc.).
               li 
                 p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Dependen del contexto y son sensibles al entorno. 
               li 

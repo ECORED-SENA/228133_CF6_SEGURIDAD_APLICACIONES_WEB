@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/tema6/1.png" data-aos="fade-right")
       .col-md-8(style="place-self:center;")
-        p(data-aos="fade-up") Las herramientas de #[em software] tienen el objetivo de facilitar, optimizar y mejorar el desempeño del trabajo realizado; estas herramientas ofrecen soluciones, las cuales se aplicar en diferentes áreas de una empresa y por tanto ayudan en el desarrollo de tareas desde las más complejas hasta las más simples.
+        p(data-aos="fade-up") Las herramientas de #[em software] tienen el objetivo de facilitar, optimizar y mejorar el desempeño del trabajo realizado; estas herramientas ofrecen soluciones, las cuales se aplica en diferentes áreas de una empresa y por tanto ayudan en el desarrollo de tareas desde las más complejas hasta las más simples.
         p.mt-4(data-aos="fade-up") El video a continuación habla de algunas herramientas, que le serán de utilidad en la implementación de aplicaciones #[em web]:
 
     .row.mt-5
@@ -37,7 +37,7 @@
             .tarjeta-flip__img.p-5(:style="{'background-image': `url(${require('@/assets/curso/tema6/6.png')})`}")
               .text-center
                 span(style="background-color:#fff;padding:.5rem 2rem;font-weight:bold;font-size:17px;color:#12263F;border-radius:50px;") Logstash
-              p.mt-5(style="color:#12263F;") Es una herramienta desarrollada por #[strong(style="color:#12263F;") Elastic] y que funciona bajo la #[strong(style="color:#12263F;") JVM de Java], la cual permite administrar los #[em logs] de nuestras aplicaciones, de manera que se puede usar  para recolectar, parsear y guardar los logs para búsquedas posteriores.
+              p.mt-5(style="color:#12263F;") Es una herramienta desarrollada por #[strong(style="color:#12263F;") Elastic] y que funciona bajo la #[strong(style="color:#12263F;") JVM de Java], la cual permite administrar los #[em(style="color:#12263F;") logs] de nuestras aplicaciones, de manera que se puede usar  para recolectar, parsear y guardar los #[em(style="color:#12263F;") logs] para búsquedas posteriores.
             .tarjeta-flip__contenido.p-5.p-xl-5.mt-5(style="background-color:#E5FDF3;")
               figure
                 img(src="@/assets/curso/tema6/3.png")
@@ -49,13 +49,13 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-5(:style="{'background-image': `url(${require('@/assets/curso/tema6/5.png')})`}")
               .text-center
-                span(style="background-color:#fff;padding:.5rem 2rem;font-weight:bold;font-size:17px;color:#12263F;border-radius:50px;") Cabana
-              p.mt-5(style="color:#12263F;") Es un #[strong(style="color:#12263F;font-style:italic;") dashboard] de recopilación de gráficos, grafos, métricas, búsquedas y mapas que se recopilaron en un solo panel. Los #[em dashboards] permiten obtener información de un vistazo sobre datos desde varias perspectivas y permiten a los usuarios explorar los detalles.
+                span(style="background-color:#fff;padding:.5rem 2rem;font-weight:bold;font-size:17px;color:#12263F;border-radius:50px;") Kibana
+              p.mt-5(style="color:#12263F;") Es un #[strong(style="color:#12263F;font-style:italic;") dashboard] de recopilación de gráficos, grafos, métricas, búsquedas y mapas que se recopilaron en un solo panel. Los #[em(style="color:#12263F;") dashboards] permiten obtener información de un vistazo sobre datos desde varias perspectivas y permiten a los usuarios explorar los detalles.
             .tarjeta-flip__contenido.p-5.p-xl-5.mt-5(style="background-color:#FFF4D6;")
               figure
                 img(src="@/assets/curso/tema6/4.png")
               .text-center.mt-5
-                span(style="background-color:#6ACEAE;padding:.5rem 2rem;font-weight:bold;font-size:17px;color:#12263F;border-radius:50px;") Cabana
+                span(style="background-color:#6ACEAE;padding:.5rem 2rem;font-weight:bold;font-size:17px;color:#12263F;border-radius:50px;") Kibana
 
     div.mt-5
 
